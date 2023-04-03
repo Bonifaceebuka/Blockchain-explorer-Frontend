@@ -69,7 +69,7 @@ export default function HeroSection() {
                     className="svgEth"
                   >
                     <script
-                      xmlns=""
+                      // xmlns=""
                       id="argent-x-extension"
                       data-extension-id="dlcobpjiigpikoobohmabehhmhfoodbb"
                     />
@@ -92,7 +92,7 @@ export default function HeroSection() {
                     />
                     <path fill="#bbb" d="M0 212.32l127.96 75.638v-133.8z" />
                     <script
-                      xmlns=""
+                      // xmlns=""
                       type="text/javascript"
                       src="chrome-extension://fnnegphlobjdpkhecapkijjdkgcjhkib/inject-script.js"
                       id="one-x-extension"

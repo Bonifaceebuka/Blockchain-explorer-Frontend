@@ -74,7 +74,9 @@ export default function Home() {
           </p>
           <section>
             <Beans fontSize="50px" className="float" />
-            <Illustration logo="wizard" className="wizard" />
+            <Illustration 
+            // @ts-ignore
+            logo="wizard" className="wizard" />
           </section>
         </section>
       </section>
