@@ -26,28 +26,28 @@ export default function HeroSection() {
     };
 
     const getBlockInfo = async () => {
-      const response = await axios.get(
-        `http://localhost:5001/getblockinfo`,
-        {}
-      );
+      // const response = await axios.get(
+      //   `http://localhost:5001/getblockinfo`,
+      //   {}
+      // );
       console.log("rrr", response);
       const blockArray = [
-        response.data.previousBlockInfo[1],
-        response.data.previousBlockInfo[2],
-        response.data.previousBlockInfo[3],
-        response.data.previousBlockInfo[4],
-        response.data.previousBlockInfo[5],
+        // response.data.previousBlockInfo[1],
+        // response.data.previousBlockInfo[2],
+        // response.data.previousBlockInfo[3],
+        // response.data.previousBlockInfo[4],
+        // response.data.previousBlockInfo[5],
       ];
 
-      const transactions = [response.data.previousBlockInfo[0].transactions];
+      // const transactions = [response.data.previousBlockInfo[0].transactions];
 
-      console.log("transactions", transactions[0]);
-      setTotalTransactions(
-        response.data.previousBlockInfo[1].totalTransactions
-      );
-      setLatestBlock(response.data.latestBlock);
-      // setBlockResult(blockArray);
-      setTransactionsResult(response.data.previousBlockInfo[0].transactions);
+      // console.log("transactions", transactions[0]);
+      // setTotalTransactions(
+      //   response.data.previousBlockInfo[1].totalTransactions
+      // );
+      // setLatestBlock(response.data.latestBlock);
+      // // setBlockResult(blockArray);
+      // setTransactionsResult(response.data.previousBlockInfo[0].transactions);
     };
 
     getEthPrice();
