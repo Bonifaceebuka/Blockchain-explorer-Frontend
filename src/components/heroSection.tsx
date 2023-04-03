@@ -30,7 +30,7 @@ export default function HeroSection() {
       //   `http://localhost:5001/getblockinfo`,
       //   {}
       // );
-      console.log("rrr", response);
+      // console.log("rrr", response);
       const blockArray = [
         // response.data.previousBlockInfo[1],
         // response.data.previousBlockInfo[2],
