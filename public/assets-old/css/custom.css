@@ -1,0 +1,29 @@
+.navbar-inverse{
+    background-color: #111111;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 3.3rem;
+    padding: 0 11.5rem;
+    border-bottom: 1px solid #222222;
+}
+
+.navbar-nav > li > a {
+    display: flex;
+    align-items: center;
+}
+.cover-container {
+    max-width: 42em;
+  }
+  /* @media (min-width: 768px){
+    .logo-area {
+    float: left;
+    }
+} */
+
+@media (min-width: 768px){
+.container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
+  margin-right: 0;
+  margin-left: 0;
+  float: left;
+}}

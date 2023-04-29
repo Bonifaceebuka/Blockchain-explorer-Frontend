@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 // import axios from "axios";
 // import Image from "next/image";
 // import styles from "@/styles/Home.module.css";
-
+import Caret from './icons/caret';
 export default function Header() {
   const [ethPrice, setEthPrice] = useState("");
 
@@ -20,7 +20,85 @@ export default function Header() {
         ETH Price:{" "}
         <span className="blueText">${Number(ethPrice).toFixed(2)}</span>
       </section>
-      <section className="navbar">
+      <nav className="navbar navbar-inverse">
+        <div className="container-fluid">
+          <div className="navbar-header logo-area">
+            <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span className="icon-bar"></span>
+              <span className="icon-bar"></span>
+              <span className="icon-bar"></span>
+            </button>
+            <a className="navbar-brand" href="#">
+            <img src="/assets/images/logo.png" alt="Etherscan Logo" className="logo" />
+            </a>
+          </div>
+          <div className="collapse navbar-collapse" id="myNavbar">
+            <ul className="nav navbar-nav">
+              <li><a href="#">Home</a></li>
+              <li className="active"><a href="#">
+                Blockchain
+                <Caret />
+              </a></li>
+              <li className="dropdown">
+                <a className="dropdown-toggle" data-toggle="dropdown" href="#">Token
+                  <Caret />
+                </a>
+                <ul className="dropdown-menu">
+                  <li><a href="#">Token 1-1</a></li>
+                  <li><a href="#">Token 1-2</a></li>
+                  <li><a href="#">Token 1-3</a></li>
+                </ul>
+              </li>
+
+              <li className="dropdown">
+                <a className="dropdown-toggle" data-toggle="dropdown" href="#">NFT
+                  <Caret />
+                </a>
+                <ul className="dropdown-menu">
+                  <li><a href="#">NFT 1-1</a></li>
+                  <li><a href="#">NFT 1-2</a></li>
+                  <li><a href="#">NFT 1-3</a></li>
+                </ul>
+              </li>
+
+              <li className="dropdown">
+                <a className="dropdown-toggle" data-toggle="dropdown" href="#">Resources
+                  <Caret />
+                </a>
+                <ul className="dropdown-menu">
+                  <li><a href="#">Resources 1-1</a></li>
+                  <li><a href="#">Resources 1-2</a></li>
+                  <li><a href="#">Resources 1-3</a></li>
+                </ul>
+              </li>
+
+              <li className="dropdown">
+                <a className="dropdown-toggle" data-toggle="dropdown" href="#">Developers
+                  <Caret />
+                </a>
+                <ul className="dropdown-menu">
+                  <li><a href="#">Resources 1-1</a></li>
+                  <li><a href="#">Resources 1-2</a></li>
+                  <li><a href="#">Resources 1-3</a></li>
+                </ul>
+              </li>
+              <li className="dropdown">
+                <a className="dropdown-toggle" data-toggle="dropdown" href="#">More
+                  <Caret />
+                </a>
+                <ul className="dropdown-menu">
+                  <li><a href="#">Resources 1-1</a></li>
+                  <li><a href="#">Resources 1-2</a></li>
+                  <li><a href="#">Resources 1-3</a></li>
+                </ul>
+              </li>
+          <li><a href="#"> | Signin</a></li>
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+      {/* <section className="navbar">
         <img src="/assets/images/logo.png" alt="Etherscan Logo" className="logo" />
         <section className="menu">
           <p>Home</p>
@@ -145,7 +223,7 @@ export default function Header() {
             Sign In
           </p>
         </section>
-      </section>
+      </section> */}
     </section>
   );
 }
