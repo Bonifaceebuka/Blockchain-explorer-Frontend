@@ -5,15 +5,17 @@ import {
  } from "react-router-dom";
 
 import routes from "./routeLayout";
-import HeroSection from "./components/heroSection";
 import Header from "./components/header";
+import Footer from './components/footer';
+import CookieAlert from './components/cookieAlert';
 function App() {
   const router = createBrowserRouter(routes);
   return (
     <>
       <Header />
       <RouterProvider router={router} />
-      <HeroSection />
+      <Footer />
+      <CookieAlert />
       </>
   );
 }
