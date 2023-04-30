@@ -315,7 +315,7 @@ export default function Home() {
                                             <span className="d-inline-block d-sm-none">Block</span>
                                             <a className="text-truncate"
                                                 style={{maxWidth: "6rem"}}
-                                                href="#">17121971</a>
+                                                href="/blocks">17121971</a>
                                             <div className="small text-muted"> 12 secs ago</div>
                                         </div>
                                     </div>
@@ -347,7 +347,7 @@ export default function Home() {
                                             className="d-flex flex-row flex-sm-column align-items-center align-items-sm-start gap-1 gap-sm-0">
                                             <span className="d-inline-block d-sm-none">Block</span><a className="text-truncate"
                                                 style={{maxWidth: "6rem"}}
-                                                href="#">17121970</a>
+                                                href="/blocks">17121970</a>
                                             <div className="small text-muted"> 24 secs ago</div>
                                         </div>
                                     </div>
@@ -371,7 +371,7 @@ export default function Home() {
                             </div>
                         </div>
                         <a className="card-footer bg-light fw-medium text-cap link-muted text-center"
-                            href="#">
+                            href="/blocks">
                             View all blocks <i className="far fa-long-arrow-right ms-1"></i>
                         </a>
                     </div>
