@@ -7,10 +7,10 @@ export default function TopMostNav() {
                 <div className="container-xxl d-flex align-items-center justify-content-between">
                     <div id="ethPrice" className="d-flex align-items-sm-center gap-4 w-100 fs-sm">
                         <div className="text-muted"><span className="text-muted">ETH Price:</span> <a
-                            href="https://etherscan.io/chart/etherprice">$1,815.58</a><span data-bs-toggle="tooltip"
+                            href="#">$1,815.58</a><span data-bs-toggle="tooltip"
                                 data-bs-placement="top"><span className="text-danger"> (-1.10%)</span></span></div>
-                        <div className="text-muted "><i className="fad fa-gas-pump me-1"></i> Gas: <span id="spanGasTooltip"
-                            data-bs-toggle="tooltip" data-bs-html="true"><a href="https://etherscan.io/gastracker"><span
+                        <div className="text-muted "><i className="fa fa-gas-pump me-1"></i> Gas: <span id="spanGasTooltip"
+                            data-bs-toggle="tooltip" data-bs-html="true"><a href="#"><span
                                 className="gasPricePlaceHolder">38</span> Gwei</a></span></div>
                     </div>
                     <div className="d-flex justify-content-end align-items-center gap-2">
@@ -18,15 +18,15 @@ export default function TopMostNav() {
                             <button className="btn btn-lg btn-white text-primary content-center" type="button"
                                 id="dropdownMenuTopbarSettings" data-bs-auto-close="outside" data-bs-toggle="dropdown"
                                 aria-expanded="false" style={{width: "2.375rem", height: "2.375rem"}}>
-                                <span className="theme-btn-main"><i className="far fa-moon theme-icon-active"
+                                <span className="theme-btn-main"><i className="fa fa-moon theme-icon-active"
                                     data-href="#fa-moon"></i></span>
                             </button>
-                            <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuTopbarSettings">
+                            {/* <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuTopbarSettings">
                                 <li>
                                     <button type="button" className="dropdown-item theme-btn" data-bs-theme-value="light"
                                         // onclick="setThemeMode('light');"
                                         >
-                                        <i className="far fa-sun-bright fa-fw dropdown-item-icon theme-icon me-1"
+                                        <i className="fa fa-sun fa-fw dropdown-item-icon theme-icon me-1"
                                             data-href="#fa-sun-bright"></i> Light
                                     </button>
                                 </li>
@@ -34,7 +34,7 @@ export default function TopMostNav() {
                                     <button type="button" className="dropdown-item theme-btn" data-bs-theme-value="dim"
                                         // onclick="setThemeMode('dim');"
                                         >
-                                        <i className="far fa-moon-stars fa-fw dropdown-item-icon theme-icon me-1"
+                                        <i className="fa fa-moon-stars fa-fw dropdown-item-icon theme-icon me-1"
                                             data-href="#fa-moon-stars"></i> Dim
                                     </button>
                                 </li>
@@ -42,7 +42,7 @@ export default function TopMostNav() {
                                     <button type="button" className="dropdown-item theme-btn active" data-bs-theme-value="dark"
                                         // onclick="setThemeMode('dark');"
                                         >
-                                        <i className="far fa-moon fa-fw dropdown-item-icon theme-icon me-1"
+                                        <i className="fa fa-moon fa-fw dropdown-item-icon theme-icon me-1"
                                             data-href="#fa-moon"></i> Dark
                                     </button>
                                 </li>
@@ -55,7 +55,7 @@ export default function TopMostNav() {
                                             className="far fa-arrow-right ms-1"></i>
                                     </a>
                                 </li>
-                            </ul>
+                            </ul> */}
                         </div>
                         <div id="divTestNet" className="dropdown">
                             <button className="btn btn-lg btn-white content-center" type="button" id="dropdownTopbarNetworks"
@@ -67,7 +67,7 @@ export default function TopMostNav() {
                                         src="/assets/images/svg/ethereum-original-light.svg"
                                         alt="Ethereum Logo" width="10"/>
                                     </button>
-                                    <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownTopbarNetworks">
+                                    {/* <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownTopbarNetworks">
                                         <li>
                                             <a href="https://etherscan.io/" id="LI_Mainnet" className="dropdown-item active active active">
                                                 Ethereum Mainnet
@@ -96,7 +96,7 @@ export default function TopMostNav() {
                                                 Sepolia Testnet
                                             </a>
                                         </li>
-                                    </ul>
+                                    </ul> */}
                                 </div>
                         </div>
                     </div>

@@ -27,7 +27,7 @@ export default function Home() {
                                 <h1 className="fs-lg text-white fw-medium mb-3">
                                     The Ethereum Blockchain Explorer
                                 </h1>
-                                <form className="mb-3" action="/search" method="GET">
+                                <form className="mb-3" action="#" method="GET">
                                     <div className="search-panel-container bg-white border rounded d-flex gap-2 p-1.5">
 
                                         <div className="d-none d-sm-block">
@@ -54,7 +54,7 @@ export default function Home() {
                                                 maxLength={68} />
                                             <div className="auto-results-wrapper">
                                                 <div className="p-2"><a
-                                                    href="https://goto.etherscan.com/rd/JDZRBYI5PK2ZFIH2K6Y39M8XA"
+                                                    href="#"
                                                     rel="nofollow" target="_blank" data-bs-toggle="tooltip"
                                                     data-bs-trigger="hover"
                                                     className="search-panel-ads d-flex align-items-center p-2 rounded">
@@ -154,7 +154,7 @@ export default function Home() {
                             <div className="col-auto mx-auto">
                                 <div className="d-none d-lg-flex justify-content-center mt-n4">
                                     <a className="position-relative d-inline-block d-sm-none" target="_blank"
-                                        href="https://goto.etherscan.com/rd/APIF3YT8G7A3EWTWMJB5SFSC7">
+                                        href="#">
                                         <span className="position-absolute bg-white text-dark shadow-sm rounded-1 small px-1"
                                             style={{ right: ".75rem", top: "-.5rem" }}>Ad</span>
                                         <img className="img-fluid rounded"
@@ -162,7 +162,7 @@ export default function Home() {
                                             width="321" height="101" />
                                     </a>
                                     <a className="position-relative d-none d-sm-inline-block d-lg-none" target="_blank"
-                                        href="https://goto.etherscan.com/rd/APIF3YT8G7A3EWTWMJB5SFSC7">
+                                        href="#">
                                         <span className="position-absolute bg-white text-dark shadow-sm rounded-1 small px-1"
                                             style={{ right: ".75rem", top: "-.5rem" }}>Ad</span>
                                         <img className="img-fluid rounded"
@@ -170,7 +170,7 @@ export default function Home() {
                                             width="730" height="90" />
                                     </a>
                                     <a className="position-relative d-none d-lg-inline-block" target="_blank"
-                                        href="https://goto.etherscan.com/rd/APIF3YT8G7A3EWTWMJB5SFSC7">
+                                        href="#">
                                         <span className="position-absolute bg-white text-dark shadow-sm rounded-1 small px-1"
                                             style={{ right: ".75rem", top: "-.5rem" }}>Ad</span>
                                         <img className="img-fluid rounded"
@@ -200,7 +200,7 @@ export default function Home() {
                                 </div>
                                 <div className="flex-grow-1">
                                     <div className="text-cap mb-px">Ether Price</div>
-                                    <a className="link-dark fs-base" href="https://etherscan.io/chart/etherprice" rel="tooltip"
+                                    <a className="link-dark fs-base" href="#" rel="tooltip"
                                         data-bs-toggle="tooltip" data-bs-placement="bottom">$1,815.58<span
                                             className="text-muted"> @ 0.06659 BTC</span><span className="text-danger small">
                                             (-1.10%)</span></a>
@@ -214,7 +214,7 @@ export default function Home() {
                                 </div>
                                 <div className="flex-grow-1">
                                     <div className="text-cap mb-px">Market Cap</div>
-                                    <a className="link-dark fs-base" href="https://etherscan.io/stat/supply">
+                                    <a className="link-dark fs-base" href="#">
                                         $218,608,434,083.00</a>
                                 </div>
                             </div>
@@ -227,7 +227,7 @@ export default function Home() {
                                 </div>
                                 <div className="flex-grow-1">
                                     <div className="text-cap mb-px">Transactions</div>
-                                    <a href="https://etherscan.io/txs" className="link-dark fs-base" rel="tooltip"
+                                    <a href="#" className="link-dark fs-base" rel="tooltip"
                                         data-bs-toggle="tooltip" data-bs-placement="left" data-bs-html="true">1,946.35
                                         M</a><span className="text-muted small" style={{ fontSize: "14px" }} 
                                         // rel="tooltip"
@@ -235,7 +235,7 @@ export default function Home() {
                                 </div>
                                 <div className="text-end">
                                     <div className="text-cap mb-px">Med Gas Price</div>
-                                    <a href="https://etherscan.io/gastracker" className="link-dark fs-base"
+                                    <a href="#" className="link-dark fs-base"
                                         data-bs-toggle="tooltip" data-bs-html="true">38 Gwei <span className="text-muted small"
                                             style={{ fontSize: "14px" }}>($1.45)</span></a>
                                 </div>
@@ -268,7 +268,7 @@ export default function Home() {
 
                     <div className="d-flex d-lg-none justify-content-center mb-4">
                         <a className="position-relative d-inline-block d-sm-none" target="_blank"
-                            href="https://goto.etherscan.com/rd/APIF3YT8G7A3EWTWMJB5SFSC7">
+                            href="#">
                             <span className="position-absolute bg-white text-dark shadow-sm rounded-1 small px-1"
                                 style={{ right: ".75rem", top: "-.5rem" }}>Ad</span>
                             <img className="img-fluid rounded"
@@ -276,15 +276,15 @@ export default function Home() {
                                 height="101" />
                         </a>
                         <a className="position-relative d-none d-sm-inline-block d-lg-none" target="_blank"
-                            href="https://goto.etherscan.com/rd/APIF3YT8G7A3EWTWMJB5SFSC7">
+                            href="#">
                             <span className="position-absolute bg-white text-dark shadow-sm rounded-1 small px-1"
                                 style={{ right: ".75rem", top: "-.5rem" }}>Ad</span>
                             <img className="img-fluid rounded"
-                                src="Ethereum%20(ETH)%20Blockchain%20Explorer_files/bcgame_730x90n.webp" alt="Ad" width="730"
+                                src="/assets/images/ads/ad_1.webp" alt="Ad" width="730"
                                 height="90" />
                         </a>
                         <a className="position-relative d-none d-lg-inline-block" target="_blank"
-                            href="https://goto.etherscan.com/rd/APIF3YT8G7A3EWTWMJB5SFSC7">
+                            href="#">
                             <span className="position-absolute bg-white text-dark shadow-sm rounded-1 small px-1"
                                 style={{ right: ".75rem", top: "-.5rem" }}>Ad</span>
                             <img className="img-fluid rounded"
@@ -294,25 +294,28 @@ export default function Home() {
                     </div>
 
 
-                    {/* <div className="row gx-4">
+                    <div className="row gx-4">
 
                 <div className="col-lg-6 mb-4">
                     <div className="card">
                         <div className="card-header">
                             <h2 className="card-header-title">Latest Blocks</h2>
                         </div>
-                        <div className="card-body overflow-auto scrollbar-custom" style="max-height: 30.3rem;"
+                        <div className="card-body overflow-auto scrollbar-custom" style={{maxHeight: "30.3rem"}}
                             id="mCSB_1_container">
                             <div className="row">
                                 <div className="col-sm-4">
                                     <div className="d-flex align-items-center gap-2">
                                         <div className="d-none d-sm-flex content-center bg-light text-muted rounded p-3"
-                                            style="height: 3rem; width: 3rem;"><i className="fal fa-cube fs-lg"></i></div>
+                                            style={{height: "3rem", width: "3rem"}}>
+                                                <i className="fa fa-cube fs-lg"></i>
+                                                </div>
                                         <div
                                             className="d-flex flex-row flex-sm-column align-items-center align-items-sm-start gap-1 gap-sm-0">
-                                            <span className="d-inline-block d-sm-none">Block</span><a className="text-truncate"
-                                                style="max-width: 6rem;"
-                                                href="https://etherscan.io/block/17121971">17121971</a>
+                                            <span className="d-inline-block d-sm-none">Block</span>
+                                            <a className="text-truncate"
+                                                style={{maxWidth: "6rem"}}
+                                                href="#">17121971</a>
                                             <div className="small text-muted"> 12 secs ago</div>
                                         </div>
                                     </div>
@@ -321,10 +324,10 @@ export default function Home() {
                                     className="col-sm-8 d-flex justify-content-sm-between align-items-end align-items-sm-center position-relative">
                                     <div className="pe-0 pe-sm-2">
                                         <div className="d-flex flex-wrap gap-1">Fee Recipient <a
-                                                className="text-truncate d-block" style="max-width: 8rem;"
-                                                href="https://etherscan.io/address/0x388c818ca8b9251b393131c08a736a67ccb19297"
+                                                className="text-truncate d-block" style={{maxWidth: "8rem"}}
+                                                href="#"
                                                 data-bs-toggle="tooltip">Lido: Execution Layer Rewards Vault</a></div><a
-                                            href="https://etherscan.io/txs?block=17121971" data-bs-toggle="tooltip">99
+                                            href="#" data-bs-toggle="tooltip">99
                                             txns </a> <span className="small text-muted me-2">in 12 secs</span><span
                                             className="d-inline-block d-sm-none badge border border-dark dark:border-white border-opacity-15 text-dark fw-medium py-1 py-sm-1.5 px-1.5 px-sm-2"
                                             data-bs-toggle="tooltip">0<b>.</b>04478 Eth</span>
@@ -334,17 +337,17 @@ export default function Home() {
                                             data-bs-toggle="tooltip">0<b>.</b>04478 Eth</span></div>
                                 </div>
                             </div>
-                            <hr>
+                            <hr/>
                             <div className="row">
                                 <div className="col-sm-4">
                                     <div className="d-flex align-items-center gap-2">
                                         <div className="d-none d-sm-flex content-center bg-light text-muted rounded p-3"
-                                            style="height: 3rem; width: 3rem;"><i className="fal fa-cube fs-lg"></i></div>
+                                            style={{height: "3rem", width: "3rem"}}><i className="fa fa-cube fs-lg"></i></div>
                                         <div
                                             className="d-flex flex-row flex-sm-column align-items-center align-items-sm-start gap-1 gap-sm-0">
                                             <span className="d-inline-block d-sm-none">Block</span><a className="text-truncate"
-                                                style="max-width: 6rem;"
-                                                href="https://etherscan.io/block/17121970">17121970</a>
+                                                style={{maxWidth: "6rem"}}
+                                                href="#">17121970</a>
                                             <div className="small text-muted"> 24 secs ago</div>
                                         </div>
                                     </div>
@@ -353,10 +356,10 @@ export default function Home() {
                                     className="col-sm-8 d-flex justify-content-sm-between align-items-end align-items-sm-center position-relative">
                                     <div className="pe-0 pe-sm-2">
                                         <div className="d-flex flex-wrap gap-1">Fee Recipient <a
-                                                className="text-truncate d-block" style="max-width: 8rem;"
-                                                href="https://etherscan.io/address/0x690b9a9e9aa1c9db991c7721a92d351db4fac990"
+                                                className="text-truncate d-block" style={{maxWidth: "8rem"}}
+                                                href="#"
                                                 data-bs-toggle="tooltip">builder0x69</a></div><a
-                                            href="https://etherscan.io/txs?block=17121970" data-bs-toggle="tooltip">158
+                                            href="#" data-bs-toggle="tooltip">158
                                             txns </a> <span className="small text-muted me-2">in 12 secs</span><span
                                             className="d-inline-block d-sm-none badge border border-dark dark:border-white border-opacity-15 text-dark fw-medium py-1 py-sm-1.5 px-1.5 px-sm-2"
                                             data-bs-toggle="tooltip">0<b>.</b>14977 Eth</span>
@@ -366,136 +369,9 @@ export default function Home() {
                                             data-bs-toggle="tooltip">0<b>.</b>14977 Eth</span></div>
                                 </div>
                             </div>
-                            <hr>
-                            <div className="row">
-                                <div className="col-sm-4">
-                                    <div className="d-flex align-items-center gap-2">
-                                        <div className="d-none d-sm-flex content-center bg-light text-muted rounded p-3"
-                                            style="height: 3rem; width: 3rem;"><i className="fal fa-cube fs-lg"></i></div>
-                                        <div
-                                            className="d-flex flex-row flex-sm-column align-items-center align-items-sm-start gap-1 gap-sm-0">
-                                            <span className="d-inline-block d-sm-none">Block</span><a className="text-truncate"
-                                                style="max-width: 6rem;"
-                                                href="https://etherscan.io/block/17121969">17121969</a>
-                                            <div className="small text-muted"> 36 secs ago</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div
-                                    className="col-sm-8 d-flex justify-content-sm-between align-items-end align-items-sm-center position-relative">
-                                    <div className="pe-0 pe-sm-2">
-                                        <div className="d-flex flex-wrap gap-1">Fee Recipient <a
-                                                href="https://etherscan.io/address/0x3c1a54d182d232d80bc9e95e9abc8b0b63d2bba9"
-                                                data-bs-toggle="tooltip">0x3c1a54...63d2BBA9</a></div><a
-                                            href="https://etherscan.io/txs?block=17121969" data-bs-toggle="tooltip">100
-                                            txns </a> <span className="small text-muted me-2">in 12 secs</span><span
-                                            className="d-inline-block d-sm-none badge border border-dark dark:border-white border-opacity-15 text-dark fw-medium py-1 py-sm-1.5 px-1.5 px-sm-2"
-                                            data-bs-toggle="tooltip">0<b>.</b>03755 Eth</span>
-                                    </div>
-                                    <div className="d-none d-sm-block text-end ms-2 ms-sm-0"><span
-                                            className="badge border border-dark dark:border-white border-opacity-15 text-dark fw-medium py-1.5 px-2"
-                                            data-bs-toggle="tooltip">0<b>.</b>03755 Eth</span></div>
-                                </div>
-                            </div>
-                            <hr>
-                            <div className="row">
-                                <div className="col-sm-4">
-                                    <div className="d-flex align-items-center gap-2">
-                                        <div className="d-none d-sm-flex content-center bg-light text-muted rounded p-3"
-                                            style="height: 3rem; width: 3rem;"><i className="fal fa-cube fs-lg"></i></div>
-                                        <div
-                                            className="d-flex flex-row flex-sm-column align-items-center align-items-sm-start gap-1 gap-sm-0">
-                                            <span className="d-inline-block d-sm-none">Block</span><a className="text-truncate"
-                                                style="max-width: 6rem;"
-                                                href="https://etherscan.io/block/17121968">17121968</a>
-                                            <div className="small text-muted"> 48 secs ago</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div
-                                    className="col-sm-8 d-flex justify-content-sm-between align-items-end align-items-sm-center position-relative">
-                                    <div className="pe-0 pe-sm-2">
-                                        <div className="d-flex flex-wrap gap-1">Fee Recipient <a
-                                                className="text-truncate d-block" style="max-width: 8rem;"
-                                                href="https://etherscan.io/address/0x388c818ca8b9251b393131c08a736a67ccb19297"
-                                                data-bs-toggle="tooltip">Lido: Execution Layer Rewards Vault</a></div><a
-                                            href="https://etherscan.io/txs?block=17121968" data-bs-toggle="tooltip">111
-                                            txns </a> <span className="small text-muted me-2">in 12 secs</span><span
-                                            className="d-inline-block d-sm-none badge border border-dark dark:border-white border-opacity-15 text-dark fw-medium py-1 py-sm-1.5 px-1.5 px-sm-2"
-                                            data-bs-toggle="tooltip">0<b>.</b>02179 Eth</span>
-                                    </div>
-                                    <div className="d-none d-sm-block text-end ms-2 ms-sm-0"><span
-                                            className="badge border border-dark dark:border-white border-opacity-15 text-dark fw-medium py-1.5 px-2"
-                                            data-bs-toggle="tooltip">0<b>.</b>02179 Eth</span></div>
-                                </div>
-                            </div>
-                            <hr>
-                            <div className="row">
-                                <div className="col-sm-4">
-                                    <div className="d-flex align-items-center gap-2">
-                                        <div className="d-none d-sm-flex content-center bg-light text-muted rounded p-3"
-                                            style="height: 3rem; width: 3rem;"><i className="fal fa-cube fs-lg"></i></div>
-                                        <div
-                                            className="d-flex flex-row flex-sm-column align-items-center align-items-sm-start gap-1 gap-sm-0">
-                                            <span className="d-inline-block d-sm-none">Block</span><a className="text-truncate"
-                                                style="max-width: 6rem;"
-                                                href="https://etherscan.io/block/17121967">17121967</a>
-                                            <div className="small text-muted"> 1 min ago</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div
-                                    className="col-sm-8 d-flex justify-content-sm-between align-items-end align-items-sm-center position-relative">
-                                    <div className="pe-0 pe-sm-2">
-                                        <div className="d-flex flex-wrap gap-1">Fee Recipient <a
-                                                className="text-truncate d-block" style="max-width: 8rem;"
-                                                href="https://etherscan.io/address/0x690b9a9e9aa1c9db991c7721a92d351db4fac990"
-                                                data-bs-toggle="tooltip">builder0x69</a></div><a
-                                            href="https://etherscan.io/txs?block=17121967" data-bs-toggle="tooltip">145
-                                            txns </a> <span className="small text-muted me-2">in 12 secs</span><span
-                                            className="d-inline-block d-sm-none badge border border-dark dark:border-white border-opacity-15 text-dark fw-medium py-1 py-sm-1.5 px-1.5 px-sm-2"
-                                            data-bs-toggle="tooltip">0<b>.</b>05085 Eth</span>
-                                    </div>
-                                    <div className="d-none d-sm-block text-end ms-2 ms-sm-0"><span
-                                            className="badge border border-dark dark:border-white border-opacity-15 text-dark fw-medium py-1.5 px-2"
-                                            data-bs-toggle="tooltip">0<b>.</b>05085 Eth</span></div>
-                                </div>
-                            </div>
-                            <hr>
-                            <div className="row">
-                                <div className="col-sm-4">
-                                    <div className="d-flex align-items-center gap-2">
-                                        <div className="d-none d-sm-flex content-center bg-light text-muted rounded p-3"
-                                            style="height: 3rem; width: 3rem;"><i className="fal fa-cube fs-lg"></i></div>
-                                        <div
-                                            className="d-flex flex-row flex-sm-column align-items-center align-items-sm-start gap-1 gap-sm-0">
-                                            <span className="d-inline-block d-sm-none">Block</span><a className="text-truncate"
-                                                style="max-width: 6rem;"
-                                                href="https://etherscan.io/block/17121966">17121966</a>
-                                            <div className="small text-muted"> 1 min ago</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div
-                                    className="col-sm-8 d-flex justify-content-sm-between align-items-end align-items-sm-center position-relative">
-                                    <div className="pe-0 pe-sm-2">
-                                        <div className="d-flex flex-wrap gap-1">Fee Recipient <a
-                                                className="text-truncate d-block" style="max-width: 8rem;"
-                                                href="https://etherscan.io/address/0x1f9090aae28b8a3dceadf281b0f12828e676c326"
-                                                data-bs-toggle="tooltip">rsync-builder</a></div><a
-                                            href="https://etherscan.io/txs?block=17121966" data-bs-toggle="tooltip">131
-                                            txns </a> <span className="small text-muted me-2">in 12 secs</span><span
-                                            className="d-inline-block d-sm-none badge border border-dark dark:border-white border-opacity-15 text-dark fw-medium py-1 py-sm-1.5 px-1.5 px-sm-2"
-                                            data-bs-toggle="tooltip">0<b>.</b>01951 Eth</span>
-                                    </div>
-                                    <div className="d-none d-sm-block text-end ms-2 ms-sm-0"><span
-                                            className="badge border border-dark dark:border-white border-opacity-15 text-dark fw-medium py-1.5 px-2"
-                                            data-bs-toggle="tooltip">0<b>.</b>01951 Eth</span></div>
-                                </div>
-                            </div>
                         </div>
                         <a className="card-footer bg-light fw-medium text-cap link-muted text-center"
-                            href="https://etherscan.io/blocks">
+                            href="#">
                             View all blocks <i className="far fa-long-arrow-right ms-1"></i>
                         </a>
                     </div>
@@ -507,18 +383,18 @@ export default function Home() {
                         <div className="card-header">
                             <h2 className="card-header-title">Latest Transactions</h2>
                         </div>
-                        <div className="card-body overflow-auto scrollbar-custom" style="max-height: 30.3rem;"
+                        <div className="card-body overflow-auto scrollbar-custom" style={{maxHeight: "30.3rem"}}
                             id="mCSB_2_container">
                             <div className="row">
                                 <div className="col-sm-4 col-lg-5">
                                     <div className="d-flex align-items-center gap-2">
                                         <div className="d-none d-sm-flex content-center bg-light text-muted rounded p-3"
-                                            style="height: 3rem; width: 3rem;"><i className="fal fa-memo fs-lg"></i></div>
+                                            style={{height: "3rem", width: "3rem"}}><i className="fa fa-toilet-paper fs-lg"></i></div>
                                         <div
                                             className="d-flex align-items-center align-items-sm-start flex-row flex-sm-column gap-1 gap-sm-0">
                                             <span className="d-inline-block d-sm-none">TX#</span><a
-                                                className="d-block text-truncate" style="max-width: 8rem;"
-                                                href="https://etherscan.io/tx/0x90ed32f4a2783bea018bb7871ef1353848e1848469f98f108f046f2eaab963ae">0x90ed32f4a2783bea018bb7871ef1353848e1848469f98f108f046f2eaab963ae</a>
+                                                className="d-block text-truncate" style={{maxWidth: "8rem"}}
+                                                href="#">0x90ed32f4a2783bea018bb7871ef1353848e1848469f98f108f046f2eaab963ae</a>
                                             <div className="small text-muted">12 secs ago</div>
                                         </div>
                                     </div>
@@ -527,10 +403,10 @@ export default function Home() {
                                     className="col-sm-8 col-lg-7 d-flex justify-content-sm-between align-items-end align-items-sm-center">
                                     <div className="pe-0 pe-sm-2">
                                         <div className="d-flex flex-wrap gap-1">From <a
-                                                href="https://etherscan.io/address/0x67898d986ec757fd59a28bf70c7f7e5d045c8c90"
+                                                href="#"
                                                 data-bs-toggle="tooltip">0x67898d...045c8c90</a></div>
                                         <div className="d-flex align-items-center flex-wrap gap-1">To <a
-                                                href="https://etherscan.io/address/0xa49a0e5ef83cf89ac8aae182f22e6464b229efc8"
+                                                href="#"
                                                 data-bs-toggle="tooltip">0xa49a0e...B229eFC8</a><span
                                                 className="d-inline d-sm-none badge border border-dark dark:border-white border-opacity-15 text-dark ms-1 py-1.5 px-2 fw-medium">0
                                                 Eth</span></div>
@@ -540,17 +416,17 @@ export default function Home() {
                                             Eth</span></div>
                                 </div>
                             </div>
-                            <hr>
+                            <hr/>
                             <div className="row">
                                 <div className="col-sm-4 col-lg-5">
                                     <div className="d-flex align-items-center gap-2">
                                         <div className="d-none d-sm-flex content-center bg-light text-muted rounded p-3"
-                                            style="height: 3rem; width: 3rem;"><i className="fal fa-memo fs-lg"></i></div>
+                                            style={{height: "3rem", width: "3rem"}}><i className="fa fa-toilet-paper fs-lg"></i></div>
                                         <div
                                             className="d-flex align-items-center align-items-sm-start flex-row flex-sm-column gap-1 gap-sm-0">
                                             <span className="d-inline-block d-sm-none">TX#</span><a
-                                                className="d-block text-truncate" style="max-width: 8rem;"
-                                                href="https://etherscan.io/tx/0x79c9ac956109b0d7e69b8361af590341d2998a8c06683eb5cf088275a113cbea">0x79c9ac956109b0d7e69b8361af590341d2998a8c06683eb5cf088275a113cbea</a>
+                                                className="d-block text-truncate" style={{maxWidth: "8rem"}}
+                                                href="#">0x79c9ac956109b0d7e69b8361af590341d2998a8c06683eb5cf088275a113cbea</a>
                                             <div className="small text-muted">12 secs ago</div>
                                         </div>
                                     </div>
@@ -559,10 +435,10 @@ export default function Home() {
                                     className="col-sm-8 col-lg-7 d-flex justify-content-sm-between align-items-end align-items-sm-center">
                                     <div className="pe-0 pe-sm-2">
                                         <div className="d-flex flex-wrap gap-1">From <a
-                                                href="https://etherscan.io/address/0x7798ef84da597d451d20ee688a4b4a647452ff35"
+                                                href="#"
                                                 data-bs-toggle="tooltip">0x7798EF...7452ff35</a></div>
                                         <div className="d-flex align-items-center flex-wrap gap-1">To <a
-                                                href="https://etherscan.io/address/0xdac17f958d2ee523a2206206994597c13d831ec7"
+                                                href="#"
                                                 data-bs-toggle="tooltip">0xdAC17F...3D831ec7</a><span
                                                 className="d-inline d-sm-none badge border border-dark dark:border-white border-opacity-15 text-dark ms-1 py-1.5 px-2 fw-medium">0
                                                 Eth</span></div>
@@ -572,143 +448,15 @@ export default function Home() {
                                             Eth</span></div>
                                 </div>
                             </div>
-                            <hr>
-                            <div className="row">
-                                <div className="col-sm-4 col-lg-5">
-                                    <div className="d-flex align-items-center gap-2">
-                                        <div className="d-none d-sm-flex content-center bg-light text-muted rounded p-3"
-                                            style="height: 3rem; width: 3rem;"><i className="fal fa-memo fs-lg"></i></div>
-                                        <div
-                                            className="d-flex align-items-center align-items-sm-start flex-row flex-sm-column gap-1 gap-sm-0">
-                                            <span className="d-inline-block d-sm-none">TX#</span><a
-                                                className="d-block text-truncate" style="max-width: 8rem;"
-                                                href="https://etherscan.io/tx/0x7c722bfc5f149385808cbd260d7fa235e3d8cfe5510e79a4e76d05531c0bdd1e">0x7c722bfc5f149385808cbd260d7fa235e3d8cfe5510e79a4e76d05531c0bdd1e</a>
-                                            <div className="small text-muted">12 secs ago</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div
-                                    className="col-sm-8 col-lg-7 d-flex justify-content-sm-between align-items-end align-items-sm-center">
-                                    <div className="pe-0 pe-sm-2">
-                                        <div className="d-flex flex-wrap gap-1">From <a
-                                                href="https://etherscan.io/address/0xc1aeef63abe4165261df4de46ef0b5a073e2d865"
-                                                data-bs-toggle="tooltip">0xC1aEEf...73e2D865</a></div>
-                                        <div className="d-flex align-items-center flex-wrap gap-1">To <a
-                                                href="https://etherscan.io/address/0xcfcffe432a48db53f59c301422d2edd77b2a88d7"
-                                                data-bs-toggle="tooltip">0xcFCFfE...7B2A88d7</a><span
-                                                className="d-inline d-sm-none badge border border-dark dark:border-white border-opacity-15 text-dark ms-1 py-1.5 px-2 fw-medium">0
-                                                Eth</span></div>
-                                    </div>
-                                    <div className="d-none d-sm-block text-end ms-2 ms-sm-0" data-bs-toggle="tooltip"><span
-                                            className="badge border border-dark dark:border-white border-opacity-15 text-dark  py-1.5 px-2 fw-medium">0
-                                            Eth</span></div>
-                                </div>
-                            </div>
-                            <hr>
-                            <div className="row">
-                                <div className="col-sm-4 col-lg-5">
-                                    <div className="d-flex align-items-center gap-2">
-                                        <div className="d-none d-sm-flex content-center bg-light text-muted rounded p-3"
-                                            style="height: 3rem; width: 3rem;"><i className="fal fa-memo fs-lg"></i></div>
-                                        <div
-                                            className="d-flex align-items-center align-items-sm-start flex-row flex-sm-column gap-1 gap-sm-0">
-                                            <span className="d-inline-block d-sm-none">TX#</span><a
-                                                className="d-block text-truncate" style="max-width: 8rem;"
-                                                href="https://etherscan.io/tx/0x5585002848f66b37d43b1ca647d448488ce675accecb5de424c78cc68422b128">0x5585002848f66b37d43b1ca647d448488ce675accecb5de424c78cc68422b128</a>
-                                            <div className="small text-muted">12 secs ago</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div
-                                    className="col-sm-8 col-lg-7 d-flex justify-content-sm-between align-items-end align-items-sm-center">
-                                    <div className="pe-0 pe-sm-2">
-                                        <div className="d-flex flex-wrap gap-1">From <a
-                                                href="https://etherscan.io/address/0x872bf8398f30bbef33dd7c1dd988023f0ee1a726"
-                                                data-bs-toggle="tooltip">0x872bF8...0ee1a726</a></div>
-                                        <div className="d-flex align-items-center flex-wrap gap-1">To <a
-                                                href="https://etherscan.io/address/0xc4448b71118c9071bcb9734a0eac55d18a153949"
-                                                data-bs-toggle="tooltip">0xc4448b...8A153949</a><span
-                                                className="d-inline d-sm-none badge border border-dark dark:border-white border-opacity-15 text-dark ms-1 py-1.5 px-2 fw-medium">0<b>.</b>07
-                                                Eth</span></div>
-                                    </div>
-                                    <div className="d-none d-sm-block text-end ms-2 ms-sm-0" data-bs-toggle="tooltip"><span
-                                            className="badge border border-dark dark:border-white border-opacity-15 text-dark  py-1.5 px-2 fw-medium">0<b>.</b>07
-                                            Eth</span></div>
-                                </div>
-                            </div>
-                            <hr>
-                            <div className="row">
-                                <div className="col-sm-4 col-lg-5">
-                                    <div className="d-flex align-items-center gap-2">
-                                        <div className="d-none d-sm-flex content-center bg-light text-muted rounded p-3"
-                                            style="height: 3rem; width: 3rem;"><i className="fal fa-memo fs-lg"></i></div>
-                                        <div
-                                            className="d-flex align-items-center align-items-sm-start flex-row flex-sm-column gap-1 gap-sm-0">
-                                            <span className="d-inline-block d-sm-none">TX#</span><a
-                                                className="d-block text-truncate" style="max-width: 8rem;"
-                                                href="https://etherscan.io/tx/0x4bb765b17026dda3d4b07e6171096a9c57deacb86000db541b55806a3830d038">0x4bb765b17026dda3d4b07e6171096a9c57deacb86000db541b55806a3830d038</a>
-                                            <div className="small text-muted">12 secs ago</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div
-                                    className="col-sm-8 col-lg-7 d-flex justify-content-sm-between align-items-end align-items-sm-center">
-                                    <div className="pe-0 pe-sm-2">
-                                        <div className="d-flex flex-wrap gap-1">From <a
-                                                href="https://etherscan.io/address/0x3a76b2c4de1a41a269e9e4eeab37ec9aa5646064"
-                                                data-bs-toggle="tooltip">0x3a76B2...a5646064</a></div>
-                                        <div className="d-flex align-items-center flex-wrap gap-1">To <a
-                                                href="https://etherscan.io/address/0x7a250d5630b4cf539739df2c5dacb4c659f2488d"
-                                                data-bs-toggle="tooltip">0x7a250d...59F2488D</a><span
-                                                className="d-inline d-sm-none badge border border-dark dark:border-white border-opacity-15 text-dark ms-1 py-1.5 px-2 fw-medium">0<b>.</b>02
-                                                Eth</span></div>
-                                    </div>
-                                    <div className="d-none d-sm-block text-end ms-2 ms-sm-0" data-bs-toggle="tooltip"><span
-                                            className="badge border border-dark dark:border-white border-opacity-15 text-dark  py-1.5 px-2 fw-medium">0<b>.</b>02
-                                            Eth</span></div>
-                                </div>
-                            </div>
-                            <hr>
-                            <div className="row">
-                                <div className="col-sm-4 col-lg-5">
-                                    <div className="d-flex align-items-center gap-2">
-                                        <div className="d-none d-sm-flex content-center bg-light text-muted rounded p-3"
-                                            style="height: 3rem; width: 3rem;"><i className="fal fa-memo fs-lg"></i></div>
-                                        <div
-                                            className="d-flex align-items-center align-items-sm-start flex-row flex-sm-column gap-1 gap-sm-0">
-                                            <span className="d-inline-block d-sm-none">TX#</span><a
-                                                className="d-block text-truncate" style="max-width: 8rem;"
-                                                href="https://etherscan.io/tx/0x4b6c4269ddb9a4f6be9b4952739659061d95b8c860bbe6c6d8800d5083081e80">0x4b6c4269ddb9a4f6be9b4952739659061d95b8c860bbe6c6d8800d5083081e80</a>
-                                            <div className="small text-muted">12 secs ago</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div
-                                    className="col-sm-8 col-lg-7 d-flex justify-content-sm-between align-items-end align-items-sm-center">
-                                    <div className="pe-0 pe-sm-2">
-                                        <div className="d-flex flex-wrap gap-1">From <a
-                                                href="https://etherscan.io/address/0xfd439db98fd4d50084dfb606a138b7b92b517a67"
-                                                data-bs-toggle="tooltip">0xFd439D...2b517a67</a></div>
-                                        <div className="d-flex align-items-center flex-wrap gap-1">To <a
-                                                href="https://etherscan.io/address/0x7a250d5630b4cf539739df2c5dacb4c659f2488d"
-                                                data-bs-toggle="tooltip">0x7a250d...59F2488D</a><span
-                                                className="d-inline d-sm-none badge border border-dark dark:border-white border-opacity-15 text-dark ms-1 py-1.5 px-2 fw-medium">0<b>.</b>02
-                                                Eth</span></div>
-                                    </div>
-                                    <div className="d-none d-sm-block text-end ms-2 ms-sm-0" data-bs-toggle="tooltip"><span
-                                            className="badge border border-dark dark:border-white border-opacity-15 text-dark  py-1.5 px-2 fw-medium">0<b>.</b>02
-                                            Eth</span></div>
-                                </div>
-                            </div>
                         </div>
                         <a className="card-footer bg-light fw-medium text-cap link-muted text-center"
-                            href="https://etherscan.io/txs">
+                            href="#">
                             View all transactions <i className="far fa-long-arrow-right ms-1"></i>
                         </a>
                     </div>
                 </div>
 
-            </div> */}
+            </div>
 
             </section>
             </>

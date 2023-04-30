@@ -25,4 +25,4 @@ document.querySelectorAll('[data-bs-theme-value]').forEach(toggle=>{toggle.addEv
 localStorage.setItem('theme',theme)
 setTheme(theme)
 showActiveTheme(theme)})})})
-function handleThemeBtn(theme){$('.theme-btn-main').text("");if(theme==='light'){$('.theme-btn-main').append("<i class='far fa-sun-bright theme-icon-active' data-href='#fa-sun-bright'></i>");}else if(theme==='dim'){$('.theme-btn-main').append("<i class='far fa-moon-stars theme-icon-active' data-href='#fa-moon-stars'></i>");}else if(theme==='dark'){$('.theme-btn-main').append("<i class='far fa-moon theme-icon-active' data-href='#fa-moon'></i>");}}
+function handleThemeBtn(theme){$('.theme-btn-main').text("");if(theme==='light'){$('.theme-btn-main').append("<i class='fa fa-sun theme-icon-active' data-href='#fa-sun-bright'></i>");}else if(theme==='dim'){$('.theme-btn-main').append("<i class='far fa-moon theme-icon-active' data-href='#fa-moon-stars'></i>");}else if(theme==='dark'){$('.theme-btn-main').append("<i class='far fa-moon theme-icon-active' data-href='#fa-moon'></i>");}}

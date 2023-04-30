@@ -8,7 +8,7 @@ export default function Header() {
             <header id="masterHeader" className="header border-bottom d-print-none">
                 <nav className="navbar navbar-expand-lg navbar-light py-3 py-lg-0">
                     <div className="container-xxl position-relative">
-                        <a className="navbar-brand" href="https://etherscan.io/" target="_parent" aria-label="Etherscan">
+                        <a className="navbar-brand" href="/" target="_parent" aria-label="Etherscan">
                             <img data-img-theme="light" src="/assets/images/svg/logo-etherscan.svg"
                                 alt="Etherscan Logo" width="150"/>
                                 <img data-img-theme="darkmode"
@@ -16,7 +16,7 @@ export default function Header() {
                                     alt="Etherscan Logo" width="150"/>
                                 </a>
                                 <div className="d-flex align-items-center gap-4">
-                                    <a className="link-dark d-block d-lg-none" href="https://etherscan.io/login">
+                                    <a className="link-dark d-block d-lg-none" href="#">
                                         <i className="far fa-user-circle me-1"></i> Sign In
                                     </a>
                                     <button className="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
@@ -28,7 +28,7 @@ export default function Header() {
                                 <div className="navbar-collapse justify-content-end collapse" id="navbarSupportedContent">
                                     <ul className="navbar-nav gap-1 gap-lg-0 pt-4 pt-lg-0">
                                         <li className="nav-item">
-                                            <a href="https://etherscan.io/" id="LI_default" className="nav-link active" aria-current="page">
+                                            <a href="/" id="LI_default" className="nav-link active" aria-current="page">
                                                 Home
                                             </a>
                                         </li>
@@ -37,7 +37,7 @@ export default function Header() {
                                             <a href="#" id="LI_blockchain" 
                                             className="nav-link dropdown-toggle" role="button"
                                                 data-bs-toggle="dropdown" aria-expanded="false">Blockchain <span className="caret"></span></a>
-                                            <ul className="dropdown-menu dropdown-menu-border" style={{minWidth: "14rem"}}>
+                                            {/* <ul className="dropdown-menu dropdown-menu-border" style={{minWidth: "14rem"}}>
                                                 <li>
                                                     <a href="https://etherscan.io/txs" id="LI12" className="dropdown-item">
                                                         Transactions
@@ -96,7 +96,7 @@ export default function Header() {
                                                         Verified Contracts
                                                     </a>
                                                 </li>
-                                            </ul>
+                                            </ul> */}
                                         </li>
 
 
@@ -105,7 +105,7 @@ export default function Header() {
                                                 data-bs-toggle="dropdown" aria-expanded="false">Tokens 
                                                 <span className="caret"></span>
                                                 </a>
-                                            <ul className="dropdown-menu dropdown-menu-border" 
+                                            {/* <ul className="dropdown-menu dropdown-menu-border" 
                                             style={{minWidth: "14rem"}}>
                                                 <li>
                                                     <a href="https://etherscan.io/tokens" id="LI21" className="dropdown-item">
@@ -117,14 +117,14 @@ export default function Header() {
                                                         Token Transfers <span className="small text-muted">(ERC-20)</span>
                                                     </a>
                                                 </li>
-                                            </ul>
+                                            </ul> */}
                                         </li>
 
 
                                         <li className="nav-item dropdown">
                                             <a href="#" id="LI_Nfts" className="nav-link dropdown-toggle" role="button"
                                                 data-bs-toggle="dropdown" aria-expanded="false">NFTs <span className="caret"></span></a>
-                                            <ul className="dropdown-menu dropdown-menu-border" 
+                                            {/* <ul className="dropdown-menu dropdown-menu-border" 
                                             style={{minWidth: "14rem"}}>
                                                 <li>
                                                     <a href="https://etherscan.io/nft-top-contracts" id="LI63" className="dropdown-item">
@@ -146,7 +146,7 @@ export default function Header() {
                                                         Latest Mints
                                                     </a>
                                                 </li>
-                                            </ul>
+                                            </ul> */}
                                         </li>
 
 
@@ -155,7 +155,7 @@ export default function Header() {
                                         <li className="nav-item dropdown">
                                             <a href="#" id="LI_resources" className="nav-link dropdown-toggle" role="button"
                                                 data-bs-toggle="dropdown" aria-expanded="false">Resources <span className="caret"></span></a>
-                                            <ul className="dropdown-menu dropdown-menu-border" style={{minWidth: "14rem"}}>
+                                            {/* <ul className="dropdown-menu dropdown-menu-border" style={{minWidth: "14rem"}}>
                                                 <li>
                                                     <a href="https://etherscan.io/charts" id="LI_charts2" className="dropdown-item">
                                                         Charts And Stats
@@ -185,14 +185,14 @@ export default function Header() {
                                                         Knowledge Base
                                                     </a>
                                                 </li>
-                                            </ul>
+                                            </ul> */}
                                         </li>
 
 
                                         <li className="nav-item dropdown">
                                             <a href="#" id="li_developers" className="nav-link dropdown-toggle" role="button"
                                                 data-bs-toggle="dropdown" aria-expanded="false">Developers <span className="caret"></span></a>
-                                            <ul className="dropdown-menu dropdown-menu-border" style={{minWidth: "14rem"}}>
+                                            {/* <ul className="dropdown-menu dropdown-menu-border" style={{minWidth: "14rem"}}>
                                                 <li>
                                                     <a href="https://etherscan.io/apis" id="LI5" className="dropdown-item">
                                                         API Plans
@@ -239,7 +239,7 @@ export default function Header() {
                                                         Broadcast Transaction
                                                     </a>
                                                 </li>
-                                            </ul>
+                                            </ul> */}
                                         </li>
 
 
@@ -247,7 +247,7 @@ export default function Header() {
                                             <a href="#" id="LI_services2" 
                                             className="nav-link dropdown-toggle" role="button"
                                                 data-bs-toggle="dropdown" aria-expanded="false">More <span className="caret"></span></a>
-                                            <div className="dropdown-menu dropdown-menu-border dropdown-menu-mega">
+                                            {/* <div className="dropdown-menu dropdown-menu-border dropdown-menu-mega">
                                                 <div className="row">
                                                     <div className="col-lg order-last order-lg-first">
                                                         <div className="d-flex flex-column bg-light h-100 rounded-3 p-5">
@@ -354,10 +354,10 @@ export default function Header() {
                                                             </ul>
                                                         </div>
                                                     </div>
-                                                </div>
+                                                </div> */}
                                         </li>
 
-                                        <li className="nav-item dropdown d-block d-lg-none">
+                                        {/* <li className="nav-item dropdown d-block d-lg-none">
                                             <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                                 aria-expanded="false">Explorers</a>
                                             <ul className="dropdown-menu dropdown-menu-border" style={{minWidth: "14rem"}}>
@@ -432,13 +432,13 @@ export default function Header() {
                                                     </a>
                                                 </li>
                                             </ul>
-                                        </li>
+                                        </li> */}
 
                                         <li className="nav-item align-self-center d-none d-lg-block">
                                             <span className="text-secondary">|</span>
                                         </li>
                                         <li className="nav-item d-none d-lg-block">
-                                            <a className="nav-link" href="https://etherscan.io/login">
+                                            <a className="nav-link" href="#">
                                                 <i className="far fa-user-circle me-1"></i> Sign In
                                             </a>
                                         </li>
