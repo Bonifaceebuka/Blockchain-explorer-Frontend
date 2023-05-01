@@ -199,13 +199,13 @@ export default function Blocks() {
                                     <span 
                                 // rel="tooltip"
                                         data-bs-toggle="tooltip" data-bs-title="4 secs ago">1682857151</span></td>
-                                <td><a href="https://etherscan.io/txs?block=17158817">123</a></td>
+                                <td><a href="/block-tnx-list">123</a></td>
                                 <td>
                                     <div className="d-flex align-items-center gap-1"><img
                                             src="Ethereum%20Blocks%20Etherscan_files/ENS.svg" className=""
                                             data-bs-toggle="tooltip" data-bs-title="ENS Name" alt="ENS Name"
                                             width="12"/><a
-                                            href="https://etherscan.io/address/0x4838b106fce9647bdf1e7877bf73ce8b0bad5f97"
+                                            href="#"
                                             className="d-inline-flex align-items-center" target="_self"><span 
                                             // rel="tooltip"
                                                 className="text-break hash-tag text-truncate" data-bs-toggle="tooltip"
@@ -256,10 +256,10 @@ export default function Blocks() {
                                 style={{display:"none !important"}}><span 
                                 // rel="tooltip"
                                         data-bs-toggle="tooltip" data-bs-title="16 secs ago">1682857139</span></td>
-                                <td><a href="https://etherscan.io/txs?block=17158816">135</a></td>
+                                <td><a href="/block-tnx-list">135</a></td>
                                 <td>
                                     <span className="d-flex align-items-center gap-1"><a
-                                            href="https://etherscan.io/address/0x1f9090aae28b8a3dceadf281b0f12828e676c326"
+                                            href="#"
                                             className="hash-tag text-truncate" data-bs-boundary="viewport"
                                             data-bs-toggle="tooltip" data-bs-trigger="hover">rsync-builder</a><a
                                             className="js-clipboard link-secondary " href="javascript:;"

@@ -173,8 +173,8 @@ export default function TransactionByHash() {
                     <ins data-revive-zoneid="6" data-revive-id="6452186c83cd256052c3c100f524ed97" data-revive-seq="0"
                         id="revive-0-0" data-revive-loaded="1" style={{ textDecoration: "none" }}><b>Featured:</b>
                         Wallet-to-wallet instant messaging via <img
-                            src="Ethereum%20Transaction%20Hash%20(Txhash)%20Details%20Etherscan_files/blockscan-logo.svg" />
-                        <a href="https://kta.etherscan.com/www/d/cl.php?ebannerid=2875&amp;zoneid=6&amp;sig=095a259ea5929454f262f563f07a73a52539c5b0287615fa17b704cfc29f052b&amp;oadest=https%3A%2F%2Fchat.blockscan.com%2Fstart"
+                            src="/assets/images/ads/1inch_20.webp" />
+                        <a href="#"
                             target="_blank" title="Links to an External Advertiser site"> <b> Blockscan Chat!</b></a>
                         <div id="beacon_137075dfc5" style={{ position: "absolute", left: "0px", top: "0px", visibility: "hidden" }}>
                             <img src="Ethereum%20Transaction%20Hash%20(Txhash)%20Details%20Etherscan_files/lg.gif" alt=""
@@ -245,19 +245,19 @@ export default function TransactionByHash() {
                                     data-bs-toggle="dropdown" aria-expanded="false">More</button>
                                 <ul className="dropdown-menu dropdown-menu-sm-end" aria-labelledby="dropdownTxnMore"
                                     style={{minWidth: "10rem"}}>
-                                    <a href="https://etherscan.github.io/ethvalidate/?tx=0x12e24e0cfe362ad945660af62e75d592ccaefbc63228350a169626ef92c75fc5"
+                                    <a href="#"
                                         data-bs-toggle="tooltip" data-title="Open Source External Transaction Validation"
                                         target="_blank" className="dropdown-item" data-bs-trigger="hover">Validate Transaction
                                         <i className="fa fa-check-circle text-success ms-1"></i></a>
                                     <hr className="my-1" /><a
-                                        href="https://etherscan.io/vmtrace?txhash=0x12e24e0cfe362ad945660af62e75d592ccaefbc63228350a169626ef92c75fc5"
+                                        href="#"
                                         className="dropdown-item" rel="nofollow">Geth Debug Trace</a><a
-                                            href="https://etherscan.io/vmtrace?txhash=0x12e24e0cfe362ad945660af62e75d592ccaefbc63228350a169626ef92c75fc5&amp;type=parity"
+                                            href="#"
                                             className="dropdo;[=wn-item" rel="nofollow">Parity Trace</a><a
-                                                href="https://etherscan.io/tx-decoder?tx=0x12e24e0cfe362ad945660af62e75d592ccaefbc63228350a169626ef92c75fc5"
+                                                href="#"
                                                 className="dropdown-item" rel="nofollow">Transaction Decoder</a>
                                     <hr className="my-1" /><a
-                                        href="https://etherscan.io/getRawTx?tx=0x12e24e0cfe362ad945660af62e75d592ccaefbc63228350a169626ef92c75fc5"
+                                        href="#"
                                         className="dropdown-item">Get Raw Tx Hex</a>
                                 </ul>
                             </div>
@@ -328,7 +328,7 @@ export default function TransactionByHash() {
                                             className="d-flex align-items-center gap-1"><i
                                                 className="fa fa-check-circle text-success small" data-bs-toggle="tooltip"
                                                 aria-label="This block is finalized and cannot be reverted without slashing at least 1/3 of all validators' stake."></i>
-                                            <a href="https://etherscan.io/block/17159364">17159364</a></span><span
+                                            <a href="/block-tnx-list">17159364</a></span><span
                                                 className="badge bg-secondary bg-opacity-10 border border-secondary border-opacity-25 text-dark fw-medium text-start text-wrap py-1.5 px-2"
                                                 data-bs-toggle="tooltip" data-bs-trigger="hover"
                                                 data-bs-placement="top">1144 Block Confirmations</span></div>
@@ -847,7 +847,7 @@ export default function TransactionByHash() {
                                                             <div className="col col-md-3 text-dt">More Details:</div>
                                                             <div className="col-auto text-end text-md-start">
                                                                 <span className="link-collapse-default">
-                                                                    <i className="far fa-plus"></i> Click to show more
+                                                                    <i className="fa fa-plus"></i> Click to show more
                                                                 </span>
                                                                 <span className="link-collapse-active">
                                                                     <i className="far fa-minus"></i> Click to show less
