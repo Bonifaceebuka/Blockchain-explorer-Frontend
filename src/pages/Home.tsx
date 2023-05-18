@@ -34,11 +34,9 @@ export default function Home() {
                                             <select name="f" className="form-select fs-base border-0 filterby"
                                                 aria-label="Default select example">
                                                 {/* <option selected="selected" value="0">All Filters</option> */}
-                                                <option value="1">Addresses</option>
-                                                <option value="2">Tokens</option>
-                                                <option value="3">Name Tags</option>
-                                                <option value="4">Labels</option>
-                                                <option value="5">Websites</option>
+                                                <option value="5">Goerli</option>
+                                                <option value="2">Sepolia</option>
+                                                <option value="1">Mainnet</option>
                                             </select>
                                         </div>
 
@@ -48,7 +46,7 @@ export default function Home() {
                                             <input id="search-panel" type="text" className="form-control fs-base border-0 pe-8"
                                                 // autocomplete="off" 
                                                 // spellcheck="false"
-                                                placeholder="Search by Address / Txn Hash / Block / Token / Domain Name"
+                                                placeholder="Search by Txn Hash / Block"
                                                 aria-describedby="button-header-search" name="q"
                                                 // onkeyup="handleSearchText(this);" 
                                                 maxLength={68} />
@@ -114,6 +112,7 @@ export default function Home() {
                                                 </div>
                                             </div>
                                             <a href="#"
+                                            
                                                 className="clear-icon d-none align-items-center position-absolute top-0 bottom-0 my-auto d-flex align-items-center"
                                                 style={{ right: "0.75rem", cursor: "pointer" }}>
                                                 <i className="fa-regular fa-xmark fs-5 text-secondary"></i>
