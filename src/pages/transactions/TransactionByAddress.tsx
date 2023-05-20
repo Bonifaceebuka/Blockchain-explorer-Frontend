@@ -1022,7 +1022,7 @@ export default function TransactionByAddress() {
               type="button"
               role="tab"
               aria-controls="transactions"
-              // aria-selected="true" onclick="javascript:updatehash('');"
+            // aria-selected="true" onclick="javascript:updatehash('');"
             >
               Transactions
             </a>
@@ -1041,8 +1041,8 @@ export default function TransactionByAddress() {
               type="button"
               role="tab"
               aria-controls="internaltx"
-              // aria-selected="false" onclick="javascript:updatehash('internaltx');"
-              // tabindex="-1"
+            // aria-selected="false" onclick="javascript:updatehash('internaltx');"
+            // tabindex="-1"
             >
               Internal Transactions
             </a>
@@ -1062,8 +1062,8 @@ export default function TransactionByAddress() {
               role="tab"
               aria-controls="tokentxns"
               aria-selected="false"
-              // onclick="javascript:updatehash('tokentxns');showLoader(window.token_transfer_loaded);"
-              // tabindex="-1"
+            // onclick="javascript:updatehash('tokentxns');showLoader(window.token_transfer_loaded);"
+            // tabindex="-1"
             >
               Token Transfers (ERC-20)
             </a>
@@ -1083,8 +1083,8 @@ export default function TransactionByAddress() {
               role="tab"
               aria-controls="nfttransfers"
               aria-selected="false"
-              // onclick="javascript:updatehash('nfttransfers');showLoader(window.token_nft_transfer_loaded);"
-              // tabindex="-1"
+            // onclick="javascript:updatehash('nfttransfers');showLoader(window.token_nft_transfer_loaded);"
+            // tabindex="-1"
             >
               NFT Transfers
             </a>
@@ -1104,8 +1104,8 @@ export default function TransactionByAddress() {
               role="tab"
               aria-controls="analytics"
               aria-selected="false"
-              // onclick="javascript:updatehash('analytics');showLoader(window.analytics_loaded);"
-              // tabindex="-1"
+            // onclick="javascript:updatehash('analytics');showLoader(window.analytics_loaded);"
+            // tabindex="-1"
             >
               Analytics
             </a>
@@ -1125,7 +1125,7 @@ export default function TransactionByAddress() {
               role="tab"
               aria-controls="comments"
               aria-selected="false"
-              // onclick="javascript:updatehash('comments');" tabindex="-1"
+            // onclick="javascript:updatehash('comments');" tabindex="-1"
             >
               <span
                 className="disqus-comment-count"
@@ -1142,14 +1142,14 @@ export default function TransactionByAddress() {
             type="hidden"
             id="hdnErc20"
             value="Age"
-            // onchange="setGlobalValue(this)"
+          // onchange="setGlobalValue(this)"
           />
           <div
             className="tab-pane fade show active"
             id="transactions"
             role="tabpanel"
             aria-labelledby="tab-1"
-            // tabindex="0"
+          // tabindex="0"
           >
             <div className="card">
               <div id="ContentPlaceHolder1_divTxDataInfo" className="card-body">
@@ -1241,7 +1241,7 @@ export default function TransactionByAddress() {
                       <th
                         scope="col"
                         className="text-center"
-                        // width="10"
+                      // width="10"
                       >
                         <i
                           className="far fa-question-circle text-muted"
@@ -1273,7 +1273,7 @@ export default function TransactionByAddress() {
                               type="button"
                               id="dropdownMethod"
                               data-bs-toggle="dropdown"
-                              // aria-expanded="false" onclick="onFilterClick(this)"
+                            // aria-expanded="false" onclick="onFilterClick(this)"
                             >
                               <i className="fa fa-filter fa-fw"></i>
                             </button>
@@ -1339,7 +1339,7 @@ export default function TransactionByAddress() {
                               type="button"
                               id="dropdownBlock"
                               data-bs-toggle="dropdown"
-                              // aria-expanded="false" onclick="onFilterClick(this)"
+                            // aria-expanded="false" onclick="onFilterClick(this)"
                             >
                               <i className="fa fa-filter fa-fw"></i>
                             </button>
@@ -1361,7 +1361,7 @@ export default function TransactionByAddress() {
                                     name="fromblock"
                                     className="js-input-focus form-control form-control-sm"
                                     placeholder="Block Number"
-                                    // required=""
+                                  // required=""
                                   />
                                 </div>
                                 <div>
@@ -1377,7 +1377,7 @@ export default function TransactionByAddress() {
                                     name="toblock"
                                     className="form-control form-control-sm"
                                     placeholder="Block Number"
-                                    // required=""
+                                  // required=""
                                   />
                                 </div>
                               </div>
@@ -1417,7 +1417,7 @@ export default function TransactionByAddress() {
                       </th>
                       <th
                         scope="col"
-                        // width="100"
+                      // width="100"
                       >
                         <div className="d-flex align-items-center gap-2">
                           <span>From</span>
@@ -1431,7 +1431,7 @@ export default function TransactionByAddress() {
                               id="dropdownFrom"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
-                              // onclick="onFilterClick(this)"
+                            // onclick="onFilterClick(this)"
                             >
                               <i className="fa fa-filter fa-fw"></i>
                             </button>
@@ -1472,7 +1472,7 @@ export default function TransactionByAddress() {
                       </th>
                       <th
                         scope="col"
-                        // width="20"
+                      // width="20"
                       ></th>
                       <th scope="col">
                         <div className="d-flex align-items-center gap-2">
@@ -1487,7 +1487,7 @@ export default function TransactionByAddress() {
                               id="dropdownTo"
                               data-bs-toggle="dropdown"
                               aria-expanded="false"
-                              // onclick="onFilterClick(this)"
+                            // onclick="onFilterClick(this)"
                             >
                               <i className="fa fa-filter fa-fw"></i>
                             </button>
@@ -1871,7 +1871,7 @@ export default function TransactionByAddress() {
             className="tab-pane fade"
             id="internaltx"
             role="tabpanel"
-            // aria-labelledby="tab-2" tabindex="0"
+          // aria-labelledby="tab-2" tabindex="0"
           >
             <div className="card">
               <div className="card-body">
@@ -1898,7 +1898,7 @@ export default function TransactionByAddress() {
                           role="switch"
                           className="form-check-input"
                           id="customSwitch1"
-                          // onclick="toggleMode();"
+                        // onclick="toggleMode();"
                         />
                       </div>
                     </div>
@@ -1929,7 +1929,7 @@ export default function TransactionByAddress() {
                       <th scope="col">From</th>
                       <th
                         scope="col"
-                        // width="30"
+                      // width="30"
                       ></th>
                       <th scope="col">To</th>
                       <th scope="col">Value</th>
@@ -2070,7 +2070,7 @@ export default function TransactionByAddress() {
             id="tokentxns"
             role="tabpanel"
             aria-labelledby="tab-3"
-            // tabindex="0"
+          // tabindex="0"
           >
             <div style={{ visibility: 'hidden', lineHeight: '0' }}>
               <iframe
@@ -2078,7 +2078,7 @@ export default function TransactionByAddress() {
                 src=""
                 scrolling="no"
                 style={{ width: '100px', height: '600px', minWidth: '100%' }}
-                // frameborder="0"
+              // frameborder="0"
               ></iframe>
             </div>
           </div>
@@ -2087,7 +2087,7 @@ export default function TransactionByAddress() {
             id="nfttransfers"
             role="tabpanel"
             aria-labelledby="tab-15"
-            // tabindex="0"
+          // tabindex="0"
           >
             <div style={{ visibility: 'hidden', lineHeight: '0' }}>
               <iframe
@@ -2095,7 +2095,7 @@ export default function TransactionByAddress() {
                 src=""
                 scrolling="no"
                 style={{ width: '100px', height: '600px', minWidth: '100%' }}
-                // frameborder="0"
+              // frameborder="0"
               ></iframe>
             </div>
           </div>
@@ -2104,7 +2104,7 @@ export default function TransactionByAddress() {
             id="loansAddress"
             role="tabpanel"
             aria-labelledby="tab-6"
-            // tabindex="0"
+          // tabindex="0"
           >
             <div className="card p-5 mb-3">
               <div
@@ -2136,7 +2136,7 @@ export default function TransactionByAddress() {
                   src=""
                   scrolling="yes"
                   style={{ width: '100px', height: '600px', minWidth: '100%' }}
-                  // frameborder="0"
+                // frameborder="0"
                 ></iframe>
               </div>
             </div>
@@ -2144,9 +2144,9 @@ export default function TransactionByAddress() {
           <div
             className="tab-pane fade"
             id="contracts"
-            // role="tabpanel"
-            // aria-labelledby="tab-7"
-            //  tabindex="0"
+          // role="tabpanel"
+          // aria-labelledby="tab-7"
+          //  tabindex="0"
           >
             <div className="card p-5 mb-3">
               <div className="d-flex flex-column flex-lg-row justify-content-between align-items-lg-center bg-white py-1 mb-3 gap-3">
@@ -2185,7 +2185,7 @@ export default function TransactionByAddress() {
                         className="btn btn-white"
                         id="btnCustomNext"
                         style={{ cursor: 'pointer' }}
-                        // onclick="searchContractNext();"
+                      // onclick="searchContractNext();"
                       >
                         <i className="fas fa-chevron-down"></i>
                       </button>
@@ -2193,7 +2193,7 @@ export default function TransactionByAddress() {
                         className="btn btn-white"
                         id="btnCustomPrevious"
                         style={{ cursor: 'pointer' }}
-                        // onclick="searchContractPrevious();"
+                      // onclick="searchContractPrevious();"
                       >
                         <i className="fas fa-chevron-up"></i>
                       </button>
@@ -2278,7 +2278,7 @@ export default function TransactionByAddress() {
                   id="ContentPlaceHolder1_btnconvert222"
                   className="btn btn-sm btn-secondary mb-2"
                   type="button"
-                  // onclick="javascript:convertstr(document.getElementById('mainaddress').innerHTML);"
+                // onclick="javascript:convertstr(document.getElementById('mainaddress').innerHTML);"
                 >
                   Switch to Opcodes View
                 </button>
@@ -2324,7 +2324,7 @@ export default function TransactionByAddress() {
                     scrolling="no"
                     style={{ height: '600px', padding: '0px 0.5px' }}
                     width="100%"
-                    // frameborder="0"
+                  // frameborder="0"
                   ></iframe>
                 </div>
               </div>
@@ -2362,7 +2362,7 @@ export default function TransactionByAddress() {
                       padding: '0px 0.5px',
                     }}
                     width="100%"
-                    // frameborder="0"
+                  // frameborder="0"
                   ></iframe>
                 </div>
               </div>
@@ -2403,7 +2403,7 @@ export default function TransactionByAddress() {
                     scrolling="no"
                     style={{ height: '600px' }}
                     width="100%"
-                    // frameborder="0"
+                  // frameborder="0"
                   ></iframe>
                 </div>
               </div>
@@ -2444,7 +2444,7 @@ export default function TransactionByAddress() {
                     scrolling="yes"
                     style={{ height: '600px', minHeight: '600px' }}
                     width="100%"
-                    // frameborder="0"
+                  // frameborder="0"
                   ></iframe>
                 </div>
               </div>
@@ -2484,7 +2484,7 @@ export default function TransactionByAddress() {
                     scrolling="yes"
                     style={{ height: '600px' }}
                     width="100%"
-                    // frameborder="0"
+                  // frameborder="0"
                   ></iframe>
                 </div>
               </div>
@@ -2524,7 +2524,7 @@ export default function TransactionByAddress() {
                     scrolling="yes"
                     style={{ height: '600px', minHeight: '600px' }}
                     width="100%"
-                    // frameborder="0"
+                  // frameborder="0"
                   ></iframe>
                 </div>
               </div>
@@ -2535,7 +2535,7 @@ export default function TransactionByAddress() {
             id="events"
             role="tabpanel"
             aria-labelledby="tab-8"
-            // tabindex="0"
+          // tabindex="0"
           >
             <div className="card p-5 mb-3">
               <div
@@ -2547,7 +2547,7 @@ export default function TransactionByAddress() {
                   src=""
                   style={{ height: '600px' }}
                   width="100%"
-                  // frameborder="0"
+                // frameborder="0"
                 ></iframe>
               </div>
             </div>
@@ -2557,7 +2557,7 @@ export default function TransactionByAddress() {
             id="mine"
             role="tabpanel"
             aria-labelledby="tab-9"
-            // tabindex="0"
+          // tabindex="0"
           >
             <div className="card">
               <div className="card-body">
@@ -2607,7 +2607,7 @@ export default function TransactionByAddress() {
             id="uncle"
             role="tabpanel"
             aria-labelledby="tab-10"
-            // tabindex="0"
+          // tabindex="0"
           >
             <div className="card">
               <div className="card-body">
@@ -2655,7 +2655,7 @@ export default function TransactionByAddress() {
             id="loans"
             role="tabpanel"
             aria-labelledby="tab-11"
-            // tabindex="0"
+          // tabindex="0"
           >
             <div className="card p-5 mb-3">
               <div
@@ -2687,7 +2687,7 @@ export default function TransactionByAddress() {
                   src=""
                   scrolling="yes"
                   width="100%"
-                  // frameborder="0"
+                // frameborder="0"
                 ></iframe>
               </div>
             </div>
@@ -2697,7 +2697,7 @@ export default function TransactionByAddress() {
             id="analytics"
             role="tabpanel"
             aria-labelledby="tab-12"
-            // tabindex="0"
+          // tabindex="0"
           >
             <div className="card p-5 mb-3">
               <div
@@ -2729,7 +2729,7 @@ export default function TransactionByAddress() {
                   src=""
                   scrolling="no"
                   width="100%"
-                  // frameborder="0"
+                // frameborder="0"
                 ></iframe>
               </div>
             </div>
@@ -2739,7 +2739,7 @@ export default function TransactionByAddress() {
             id="notes"
             role="tabpanel"
             aria-labelledby="tab-13"
-            // tabindex="0"
+          // tabindex="0"
           >
             <div className="card p-5 mb-3">
               <div
@@ -2756,7 +2756,7 @@ export default function TransactionByAddress() {
             id="comments"
             role="tabpanel"
             aria-labelledby="tab-14"
-            // tabindex="0"
+          // tabindex="0"
           >
             <div className="card p-5 mb-3">
               Make sure to use the "Vote Down" button for any spammy posts, and
@@ -2770,7 +2770,7 @@ export default function TransactionByAddress() {
             id="withdrawals"
             role="tabpanel"
             aria-labelledby="tab-16"
-            // tabindex="0"
+          // tabindex="0"
           >
             <div className="card">
               <div className="card-body">
