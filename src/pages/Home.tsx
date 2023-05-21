@@ -53,7 +53,9 @@ export default function Home() {
                                         <div className="auto-results-wrapper">
                                             <div className="p-2"><a
                                                 href="#"
-                                                rel="nofollow" target="_blank" data-bs-toggle="tooltip"
+                                                rel="nofollow" 
+                                                target="_blank" 
+                                                data-bs-toggle="tooltip"
                                                 data-bs-trigger="hover"
                                                 className="search-panel-ads d-flex align-items-center p-2 rounded">
                                                 <div className="me-2"><img className="rounded-1"
