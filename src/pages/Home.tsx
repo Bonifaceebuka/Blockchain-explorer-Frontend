@@ -25,7 +25,7 @@ export default function Home() {
                     <div className="row justify-content-between align-items-center">
                         <div className="col-md-9 col-lg-7 mb-5">
                             <h1 className="fs-lg text-white fw-medium mb-3">
-                                The Ethereum Blockchain Explorer
+                                The Ethereum Blockchain Explore
                             </h1>
                             <form className="mb-3" action="#" method="GET">
                                 <div className="search-panel-container bg-white border rounded d-flex gap-2 p-1.5">
